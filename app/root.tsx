@@ -48,7 +48,11 @@ function Document({children, title}){
 function Layout(){
     return(
       <>
-       <div className="text-2xl text-red-600">Hello dev</div>
+       <div className="">
+         <div className="text-lg">
+            hello dev
+         </div>
+       </div>
       </>
     )
 }
