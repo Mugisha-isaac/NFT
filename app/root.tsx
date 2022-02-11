@@ -52,28 +52,29 @@ function Layout(){
        <div className="">
          <div className="m-5">
             <nav className="grid grid-cols-2 grid-rows-1 gap-3">
-              <div className=" flex flex-row clear-left m-5 ">
-              <div className="w-3 h-3 rounded-full bg-red-400"></div>
+              <div className=" flex flex-row clear-left mt-5 relative">
+              <div className="w-2 h-2 rounded-full bg-red-400"></div>
              <Link to='/'>Cuans</Link>
               </div>
-              
-             <ul className="grid grid-rows-1 grid-cols-5" style={{marginTop:'1em', marginRight:'4em'}}>
+              <div className="absolute top-10 px-14 ml-10 px-10" >
+              <ul className="grid grid-rows-1 grid-cols-5 text-center">
                <li>
                  <Link to='/about' className="capitalize">About us</Link>
                </li>
                <li>
-                 <Link to='/benefits' className="">The Benefits</Link>
+                 <Link to='/benefits' className="capitalize">The Benefits</Link>
                </li>
                <li>
-                 <Link to='/how' className="">How It Works </Link>
+                 <Link to='/how' className="capitalize">How It Works </Link>
                </li>
                <li>
-                 <Link to='/premium' className="">Premium Plans </Link>
+                 <Link to='/premium' className="capitalize">Premium Plans </Link>
                </li>
                <li>
-                 <Link to='/contact' className="">Contact Us </Link>
+                 <Link to='/contact' className="capitalize">Contact Us </Link>
                </li>
              </ul>
+              </div>
             </nav>
          </div>
        </div>
